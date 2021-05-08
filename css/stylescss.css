@@ -6,6 +6,9 @@
   box-sizing: border-box; }
 
 /*<!-- BORDES A TODO //////////////////// -->*/
+*:hover {
+  border: 1px solid red; }
+
 body {
   background-color: black;
   color: #EBEBEB; }
@@ -23,7 +26,6 @@ body {
   align-items: center;
   background-image: url(../img/cabina-vivo.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   height: 768px; }
 
 /*<!-- TEXTO EN LA IMAGEN //////////////////// -->*/
@@ -31,8 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 600px;
-  margin-left: 100px;
-  text-shadow: 1px 1px 10px black; }
+  text-shadow: 1px 1px 10px black; }
   .articuloPincipal__texto h2 {
     color: #EBEBEB;
     font-size: 2em;
@@ -72,7 +73,7 @@ body {
   background-color: black; }
 
 .articulo2__bloque img {
-  width: 1000px;
+  width: 700px;
   padding: 50px 0;
   border-radius: 10px; }
 
@@ -103,7 +104,8 @@ body {
   line-height: 25px; }
 
 .articulo3__img {
-  height: 300px;
+  max-width: 100%;
+  height: auto;
   transition: transform 0.2s;
   border-radius: 20px; }
 
@@ -184,13 +186,12 @@ body {
 
 /*<!-- CONTACTO FORMULARIO //////////////////// -->*/
 .contacto2__bloque__form {
-  width: 450px;
-  margin: auto;
-  margin-bottom: 50px; }
+  max-width: 450px;
+  margin: auto; }
 
 .contacto2__bloque__form p {
   text-align: center;
-  margin: 10px; }
+  margin-top: 30px; }
 
 .contacto2__bloque__form input, textarea {
   width: 100%;
@@ -200,7 +201,7 @@ body {
 .contacto__imagen {
   width: 100%;
   display: block;
-  margin: auto; }
+  margin-top: 20px; }
 
 /*<!-- GALERIA //////////////////// -->*/
 .galeria__titulo {
