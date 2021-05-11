@@ -6,9 +6,6 @@
   box-sizing: border-box; }
 
 /*<!-- BORDES A TODO //////////////////// -->*/
-*:hover {
-  border: 1px solid red; }
-
 body {
   background-color: black;
   color: #EBEBEB; }
