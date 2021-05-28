@@ -7,11 +7,11 @@
 
 /*<!-- BORDES A TODO //////////////////// -->*/
 body {
-  background-color: black;
+  background-image: url(../img/bground.png);
   color: #EBEBEB; }
 
-.header__imagenDiv img {
-  width: 150px; }
+main, footer, nav {
+  background-color: black; }
 
 .navbar-brand img {
   width: 150px; }
@@ -30,7 +30,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 600px;
-  text-shadow: 1px 1px 10px black; }
+  text-shadow: 1px 1px 10px black;
+  margin-left: 5%; }
   .articuloPincipal__texto h2 {
     color: #EBEBEB;
     font-size: 2em;
@@ -55,24 +56,19 @@ body {
   margin: 10px; }
 
 /*<!-- BARRA SLOGAN 1 //////////////////// -->*/
-.slogan__bloque {
-  display: block;
+.slogan__bloque h3 {
   padding: 30px;
   text-align: center;
   color: black;
   background-color: #EBEBEB;
-  font-size: 2.5em !important;
+  font-size: 2em;
   font-style: oblique;
   letter-spacing: 10px; }
 
 /*<!-- ARTICULO 2 //////////////////// -->*/
-.articulo2__bloque {
-  background-color: black; }
-
 .articulo2__bloque img {
   width: 700px;
-  padding: 50px 0;
-  border-radius: 10px; }
+  padding: 50px 0; }
 
 .articulo2__bloque p {
   color: #EBEBEB;
@@ -101,7 +97,7 @@ body {
   line-height: 25px; }
 
 .articulo3__img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   transition: transform 0.2s;
   border-radius: 20px; }
@@ -109,9 +105,15 @@ body {
 .articulo3__img:hover {
   transform: scale(1.2); }
 
-/*<!-- FOOTER SOCIAL //////////////////// -->*/
+/*<!-- FOOTER //////////////////// -->*/
+.footerDiv__image img {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .footerSocial__bloque h4 {
-  margin: 100px 0 20px 0;
+  padding: 100px 0 20px 0;
   text-align: center;
   font-size: 25px; }
 
@@ -127,6 +129,9 @@ body {
   font-size: 30px;
   margin: 20px 0; }
 
+.footerSocial__bloque ul {
+  margin-bottom: 50px; }
+
 .footer__imagenDiv {
   display: block; }
 
@@ -136,11 +141,14 @@ body {
 
 /*<!-- SERVICIOS //////////////////// -->*/
 /*<!-- NUESTROS SERVICIOS //////////////////// -->*/
-.servicios__titulo h2 {
+.servicios__titulo h1 {
   margin: 80px 0px 40px 0px;
   text-align: center;
   font-size: 30px;
   color: #DF7A20; }
+
+.servicios__parrafo1 {
+  text-align: right; }
 
 .servicios__especificaciones ul li {
   list-style-type: none;
@@ -157,9 +165,10 @@ body {
 
 /*<!-- NOSOTROS //////////////////// -->*/
 .nosotros1__bloque {
-  margin-top: 80px; }
+  background-color: black; }
 
 .nosotros1__bloque div h1 {
+  padding: 80px 0 40px 0;
   text-align: center;
   font-size: 30px;
   color: #DF7A20; }
@@ -176,12 +185,16 @@ body {
 
 /*<!-- CONTACTO //////////////////// -->*/
 .contacto1__titulo {
-  margin: 80px 0px 40px 0px;
+  padding: 80px 0px 40px 0px;
   text-align: center;
   font-size: 30px;
   color: #DF7A20; }
 
 /*<!-- CONTACTO FORMULARIO //////////////////// -->*/
+input, select, textarea {
+  background-color: #3D3D3D;
+  color: #EBEBEB; }
+
 .contacto2__bloque__form {
   max-width: 450px;
   margin: auto; }
@@ -194,6 +207,10 @@ body {
   width: 100%;
   margin: auto; }
 
+.contacto__button {
+  width: 100px;
+  margin: auto; }
+
 /*<!-- CONTACTO IMAGEN //////////////////// -->*/
 .contacto__imagen {
   width: 100%;
@@ -201,8 +218,11 @@ body {
   margin-top: 20px; }
 
 /*<!-- GALERIA //////////////////// -->*/
-.galeria__titulo {
-  margin: 80px 0px 40px 0px;
+.galeria__bloque {
+  background-color: black; }
+
+.galeria__titulo h1 {
+  padding: 80px 0px 40px 0px;
   text-align: center;
   font-size: 30px;
   color: #DF7A20; }
